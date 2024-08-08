@@ -21,10 +21,13 @@ import Header from "./components/Header";
 
 export default function Home() {
   return (
-    <div>
+    <div
+      style={{
+        backgroundColor: "#d9f2fa",
+      }}
+    >
       <Header></Header>
       <HeroBanner />
-
       <Row
         gutter={[16, 16]}
         style={{

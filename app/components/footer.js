@@ -33,7 +33,7 @@ export default function Footer() {
             }}
           />
           <div>
-            <strong>Địa chỉ:</strong> Số nhà 106, phố Trần Thủ Độ, khu 3 Hải Hòa
+            <strong>ĐỊA CHỈ:</strong> Số nhà 106, phố Trần Thủ Độ, khu 3 Hải Hòa
             TP Móng Cái, Tỉnh Quảng Ninh.
           </div>
           <div>
