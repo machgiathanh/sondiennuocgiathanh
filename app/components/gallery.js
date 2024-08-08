@@ -8,7 +8,7 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 // import required modules
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
-import { product_list } from "../data/page";
+import { product_list } from "../data";
 import { Image } from "antd";
 
 export default function Gallery({ images }) {
@@ -28,8 +28,8 @@ export default function Gallery({ images }) {
         modules={[FreeMode, Navigation, Thumbs]}
         className="mySwiper2"
       >
-        {images.map((item) => (
-          <SwiperSlide>
+        {images.map((item, index) => (
+          <SwiperSlide key={index}>
             <Image src={item} />
           </SwiperSlide>
         ))}

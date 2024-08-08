@@ -1,5 +1,3 @@
-import { Button } from "antd";
-
 export const product_list = [
   // sản phẩm 1
   {

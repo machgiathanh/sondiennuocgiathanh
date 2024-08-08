@@ -1,7 +1,7 @@
 "use client";
 import { Row, Col, Card, Typography, Button, Divider } from "antd";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { product_list } from "../data/page";
+import { product_list } from "../data";
 import Footer from "../components/footer";
 import Header from "../components/Header";
 import Gallery from "../components/gallery";
@@ -154,6 +154,7 @@ export default function hello() {
           <Typography.Title level={5}>Thông Tin Sản Phẩm</Typography.Title>
           {product.attributes.map((item, index) => (
             <Row
+              key={index}
               style={{
                 padding: 8,
                 background: index % 2 ? "#ddd" : "#fff",
@@ -190,8 +191,8 @@ export default function hello() {
           }}
           spaceBetween={16}
         >
-          {product_list.map((item) => (
-            <SwiperSlide>
+          {product_list.map((item, index) => (
+            <SwiperSlide key={index}>
               <a href={item.link}>
                 <Card
                   hoverable
