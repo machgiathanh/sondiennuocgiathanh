@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -52,18 +53,10 @@ li {
   display: list-item;
   text-align: -webkit-match-parent;
   unicode-bidi: isolate;
-
-  ::marker {
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    text-transform: none;
-    text-indent: 0px !important;
-    text-align: start !important;
-    text-align-last: start !important;
-  }
 }
 
 ul {
+  color: #222;
   list-style: disc;
   padding-inline-start: 40px;
 }

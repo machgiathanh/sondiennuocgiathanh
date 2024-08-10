@@ -114,8 +114,8 @@ export default function hello() {
             3. Đặc tính Jotun Jotashield
           </Typography.Title>
           <ul>
-            <li> Kháng tia cực tím gấp 2 lần.</li>
-            <li> Chống bám bụi.</li>
+            <li>Kháng tia cực tím gấp 2 lần.</li>
+            <li>Chống bám bụi.</li>
             <li>Giảm nhiệt.</li>
             <li>Chống rong rêu và nấm móc.</li>
             <li>Chống thấm nước.</li>
