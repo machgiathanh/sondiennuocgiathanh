@@ -210,7 +210,7 @@ export default function hello() {
           ))}
         </Swiper>
       </div>
-      <BangMau />
+
       <Footer></Footer>
     </div>
   );

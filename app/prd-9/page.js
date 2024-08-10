@@ -83,44 +83,93 @@ export default function hello() {
         <Col md={16} xs={24}>
           <Typography.Title level={4}>Mô Tả Sản Phẩm </Typography.Title>
           <Typography.Title level={5}>
-            1. Sơn Jotun Jotashield bền màu tối ưu
+            1. Sơn nước nội thất Jotun Majestic sang trọng bóng
           </Typography.Title>
           <Typography>
-            Nếu bạn đang tìm kiếm một sản phẩm sơn nước ngoại thất chất lượng,
-            luôn bền bỉ sau một thời gian dài và kháng được tia cực tím tối đa
-            để bảo vệ vững chắc cho&nbsp;diện mạo của ngôi nhà bạn thì dòng sơn
-            ngoại thất <strong>Jotun Jotashield bền màu tối ưu</strong> này đích
-            thực là sự lựa chọn hoàn hảo dành cho bạn. Bởi dòng sơn này sở hữu
-            nhiều tính năng nổi bật và tiện lợi với khả năng chống nấm mốc, rêu
-            mốc tốt và hạn chế bám bụi hoàn hảo. Điểm nhấn chính trong sản phẩm
-            chính là khả năng kháng tia cực tím và đảm bảo cho bề mặt tường bên
-            ngoài nhà lên đến 12 năm.
+            Sơn nước nội thất Jotun Majestic sang trọng ( bóng ) góp phần đảm
+            bảo không gian sống đẹp trong lành. Không chỉ nổ lực mang đến bề mặt
+            láng mịn hoàn hảo và bền màu, Majestic sang trọng còn giúp làm sạch
+            không khí trong nhà nhờ công nghệ Clean Air độc quyền
           </Typography>
-          <img src="/son-1.png" alt=""></img>
           <Typography>
-            <strong>Jotun Jotashield bền màu tối ưu </strong>được kiểm tra và
-            chứng thực đầy đủ bởi các phòng thí nghiệm độc về khả năng bảo vệ và
-            độ bền màu cao.
+            Đây là dòng sản phẩm sơn nội thất siêu cao cấp duy nhất trên thị
+            trường thỏa mãn đồng thời cả hai nhu cầu :{" "}
           </Typography>
-          <img src="/son-2.png" alt=""></img>
-          <Typography.Title level={5}>
-            2. Đặc tính Jotashield bền màu tối ưu
-          </Typography.Title>
           <ul>
-            <li> Chống nóng (phản nhiệt gấp 2 lần).</li>
-            <li> 12 năm bảo vệ.</li>
-            <li> Bền màu gấp 2 lần.</li>
-            <li> Bền thời tiết & chống bám bụi.</li>
-            <li> Ngăn ngừa sự phát triển của rong rêu, nấm mố.</li>
-            <li> 100% nhựa Acrylic nguyên chất công nghệ cao.</li>
-            <li> Giảm ăn mòn đối với các kết cấu.</li>
+            <li>Bề mặt tường bóng đẹp sang trọng</li>
+            <li>
+              Khả năng làm sạch không khí mang đến một không gian sống trong
+              lành hơn.
+            </li>
           </ul>
-          <Typography.Title level={5}>3. Dung tích</Typography.Title>
-          <ul>
-            <li>Lon 5 Lít</li>
-            <li>Lon 1 Lít</li>
-          </ul>
+          <img style={{ marginTop: 10 }} src="/son-7.png" alt=""></img>
 
+          <Typography.Title level={5}>2. Tính năng nổi bật</Typography.Title>
+          <Typography>
+            Sơn nước nội thất Jotun Majestic sang trọng ( bóng ) là dòng sản
+            phẩm siêu cao cấp với nhiều tính năng nổi bật
+          </Typography>
+          <img style={{ marginTop: 10 }} src="/son-8.png" alt="" />
+          <ul>
+            <li>
+              {" "}
+              <strong>Làm sạch không khí:</strong> Cải thiện chất lượng không
+              khí trong nhà bằng cách loại bỏ hơn 90% formaldehyde trong nhà.
+              Gia tăng chất lượng không khí, mang đến không gian sống an toàn
+              nhất.
+            </li>
+            <li>
+              {" "}
+              <strong>Siêu nhẹ mùi:</strong> Sử dụng nguyên liệu có hàm lượng
+              VOC siêu thấp, sơn thành phẩm siêu nhẹ mùi. Bạn có thể chuyển ngay
+              vào ngôi nhà mới sơn.
+            </li>
+            <li>
+              {" "}
+              <strong>Siêu láng min:</strong> Mang đến bề mặt sơn tốt nhất mà
+              bạn có thể sở hữu. Tường nhà bạn sẽ đẹp và sang trọng trong thời
+              gian dài.
+            </li>
+            <li>
+              {" "}
+              <strong>Che phủ vết nứt:</strong> Công thức sơn được phát triển
+              đặc biệt tạo nên độ co giãn cao giúp che phủ tốt các vết nứt nhỏ.
+              Độ phủ liền mạch, đảm bảo bức tường của bạn sẽ đẹp hoàn hảo.
+            </li>
+          </ul>
+          <img
+            style={{ marginTop: 10 }}
+            src="https://www.paintmart.vn/image/catalog/SON-JOTUN/majestic-sang-trong/kha-nang-che-phu-vet-nut-cua-son-majestic-sang-trong.jpg"
+            alt=""
+          />
+          <Typography>
+            Ngoài những tính năng đặc trưng trên thì dòng majestic sang trọng
+            cũng sở hưu những tính năng khác của dòng majestic như:{" "}
+          </Typography>
+          <ul>
+            <li>Kháng khuẩn chống nấm mốc </li>
+            <li>Lau chùi vượt trội </li>
+            <li>Màu sắc rực rỡ bền lâu </li>
+          </ul>
+          <Typography.Title level={5}>
+            3. Công nghệ màu đích thực
+          </Typography.Title>
+          <Typography>
+            Đây là loại sơn cao cấp acrylic gốc nước. Sản phẩm này ứng dụng
+            những kinh nghiệm <strong>"Công nghệ màu đích thực "&nbsp;</strong>
+            mang lại cho ngôi nhà bạn một không gian đẹp mà bạn đang mong chờ.
+            Với một bề mặt hoàn thiện có màu sắc sang trọng và bóng mịn, loại
+            sơn này mang lại cho tường nhà bạn khả năng dễ dàng vệ sinh lau
+            chùi.
+          </Typography>
+          <img style={{ marginTop: 10 }} src="/son-9.png" alt="" />
+          <Typography>
+            "Công nghệ màu đích thực" độc quyền của Jotun nhằm bảo đảm mang lại
+            màu sắc đồng nhất và chính xác, là một công thức độc nhất bao gồm
+            các nguyên liệu chất lượng. Với cam kết "Thân thiện môi trường" của
+            Jotun, bạn có thể được bảo đảm rằng loại sơn này an toàn cho bạn và
+            môi trường sống.{" "}
+          </Typography>
           <Typography.Title level={5}>
             4. Cách thực hiện sơn phủ màu hiệu quả
           </Typography.Title>

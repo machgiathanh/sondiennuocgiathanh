@@ -18,9 +18,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+      to bottom,
       transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -31,7 +34,7 @@ body {
 
 .hero-banner {
   img {
-    max-height: 600px;
+    height: 600px;
     /* căn chỉnh đối tượng khi thằng cha bị cố định kích thước */
     object-fit: cover;
     object-position: center;
@@ -40,7 +43,7 @@ body {
   /* Dien thoai, man hinh chieu rong toi da 600 */
   @media screen and (max-width: 600px) {
     img {
-      max-height: 160px;
+      height: 160px;
       /* căn chỉnh đối tượng khi thằng cha bị cố định kích thước */
       object-fit: cover;
       object-position: center;

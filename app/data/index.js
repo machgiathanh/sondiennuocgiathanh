@@ -280,14 +280,14 @@ export const product_list = [
   // sản phẩm 9
   {
     image:
-      "https://www.paintmart.vn/image/cache/catalog/son-jotun/waterguard-600x600.webp",
-    name: "Sơn chống thấm có màu Jotun Waterguard thùng 20Kg",
-    price: "50.000d",
-    price_sale: "26.490.000đ",
+      "https://www.paintmart.vn/image/cache/catalog/son-jotun/majestic-sang-trong/son-noi-that-majestic-sang-trong-600x600.webp",
+    name: "Sơn nước nội thất Jotun Majestic sang trọng bóng lon 15L",
+    price: "2,994,000đ",
+    price_sale: "6,005,000đ",
     discount_percent: "-28.18%",
     link: "/prd-9",
     gallery: [
-      "https://www.paintmart.vn/image/cache/catalog/son-jotun/waterguard-600x600.webp",
+      "https://www.paintmart.vn/image/cache/catalog/son-jotun/majestic-sang-trong/son-noi-that-majestic-sang-trong-600x600.webp",
     ],
     attributes: [
       {

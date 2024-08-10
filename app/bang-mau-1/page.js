@@ -124,6 +124,13 @@ export default function Index() {
           Bảng Màu Sơn JOTASHIELD
         </h2>
         <BangMau1></BangMau1>
+        <Typography style={{ margin: "auto", marginTop: 24 }}>
+          Do sự khác biệt giữa các cài đặt màn hình và các hệ điều hành khác
+          nhau, màu sắc xuất hiện trên màn hình của bạn có thể khác biệt so với
+          màu sắc thực tế từ Jotun. Những màu sắc được trình bày ở đây với mục
+          đích giúp bạn tham khảo. Hãy ghé cửa hàng Jotun gần nhất để xem mẫu
+          màu chính xác hơn.
+        </Typography>
       </Row>
 
       <Footer></Footer>
