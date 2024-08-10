@@ -6,7 +6,7 @@ export default function Header() {
       label: <a href="/">Trang chủ</a>,
     },
     {
-      label: <a href="">Sơn Jotun</a>,
+      label: "Sơn Jotun",
       children: [
         {
           label: "Nội Thất",
@@ -26,10 +26,11 @@ export default function Header() {
       style={{ background: "#fff", position: "sticky", top: 0, zIndex: 999 }}
     >
       <Flex align="center" style={{ maxWidth: 1080, margin: "auto" }}>
-        <Avatar
-          src="https://sonjotunvietnam.com/wp-content/uploads/2017/05/cropped-Jotun_logo.svg_.png"
-          alt=""
-        />
+        <img style={{
+          height: 40,
+          width: 40,
+          borderRadius: 999
+        }} src="https://sonjotunvietnam.com/wp-content/uploads/2017/05/cropped-Jotun_logo.svg_.png" alt="" />
         <Menu
           mode="horizontal"
           style={{ width: "100%", height: "50px" }}
